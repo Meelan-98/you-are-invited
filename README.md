@@ -1,20 +1,15 @@
-# Shehani ❤️ Meelan – Wedding site (Next.js + Ant Design)
+Wedding Invitation Website (Next.js + Ant Design)
 
-## Run locally
-    npm install
-    npm run dev          # http://localhost:3000
+A customizable, responsive wedding website built with Next.js and Ant Design. Includes event details, countdown timer, seating arrangement lookup, and a photo gallery.
 
-## Edit your content
-- `data/wedding.ts`  – names, date, venue, Maps link, time, countdown target
-- `data/tables.ts`   – seating (table number -> list of guests)
-- `data/photos.ts`   – 25 photos (location, date, caption)
-- `public/photos/`   – put 01.jpg … 25.jpg here (matching `data/photos.ts`)
+🚀 Quick Start# Install dependencies
 
-## Deploy to GitHub Pages
-1. Push to a GitHub repo (branch `main`).
-2. Repo Settings → Pages → Source: **GitHub Actions**.
-3. The workflow in `.github/workflows/deploy.yml` builds and publishes automatically,
-   setting the base path to `/<repo-name>`.
+npm install
 
-Manual static build: `npm run build` → output in `out/`
-(for a project site: `NEXT_PUBLIC_BASE_PATH=/repo-name npm run build`).
+# Start local development server (http://localhost:3000)
+
+npm run dev
+
+# If deploying to a subdirectory repository URL:
+
+NEXT_PUBLIC_BASE_PATH=/your-repo-name npm run build
