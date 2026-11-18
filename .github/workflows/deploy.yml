@@ -32,7 +32,7 @@ jobs:
       - name: Build with Next.js
         run: npm run build
         env:
-          NEXT_PUBLIC_BASE_PATH: "/mb-sk-wedding"
+          NEXT_PUBLIC_BASE_PATH: "/you-are-invited"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
