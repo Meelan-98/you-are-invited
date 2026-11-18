@@ -62,7 +62,7 @@ body { margin: 0; background: #fff; color: var(--ink); font-family: var(--font-b
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(156, 134, 91, 0.12);
+  background: rgba(67, 65, 62, 0.12);
   mix-blend-mode: overlay;
   pointer-events: none;
 }
@@ -96,7 +96,7 @@ body { margin: 0; background: #fff; color: var(--ink); font-family: var(--font-b
   align-items: center;
   gap: 6px;
   z-index: 1;
-  color: #a07c34;
+  color: #fffffe;
   opacity: 0.85;
   cursor: pointer;
 }

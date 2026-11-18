@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 
-export function Waves() {
+export function VideoBG() {
   const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {

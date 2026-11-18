@@ -7,7 +7,8 @@ import { wedding } from "@/data/wedding";
 import Mandala from "@/components/Mandala";
 import Link from "next/link";
 import { DownOutlined } from "@ant-design/icons";
-import { Waves } from "@/components/Waves";
+import { VideoBG } from "@/components/VideoBG";
+import { ImageBG } from "@/components/ImageBG";
 
 const { Title, Text, Link: AntLink } = Typography;
 const label = {
@@ -36,7 +37,7 @@ export default function Page() {
     <main style={{ overflowX: "hidden", width: "100%" }}>
       <section className="hero" style={{ padding: "0 16px" }}>
         <div className="hero-video-container">
-          <Waves />
+          <ImageBG />
           <div className="hero-overlay" />
         </div>
 
@@ -46,7 +47,7 @@ export default function Page() {
             fontWeight: 300,
             fontSize: "clamp(32px, 8vw, 96px)",
             margin: 0,
-            color: "#a07c34",
+            color: "#fbfbfa",
             lineHeight: 1.2,
             display: "flex",
             flexWrap: "wrap",
